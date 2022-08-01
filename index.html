@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+<style>
+
+
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="#service" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SERVICE</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <!--<div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Merchandise</a>
+        <a href="#" class="w3-bar-item w3-button">Extras</a>
+        <a href="#" class="w3-bar-item w3-button">Media</a>
+      </div>-->
+    </div>
+    <!--<a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>-->
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+  <a href="#service" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SERVICE</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MORE</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/360-ganesh_21.jpg" style="width:100%">
+    <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-white w3-center w3-hover-red">
+        <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">HINDU PRIEST</h1>
+        <h5 class="w3-hide-large" style="white-space:nowrap">HINDU PRIEST</h5>
+        <h3 class="w3-hide-medium w3-hide-small">MANOHAR DAS</h3>
+      </div>
+    <!--<div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Los Angeles</h3>
+      <p><b>We had the best time playing at Venice Beach!</b></p> 
+    </div>-->
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/Yagjan_present.JPG" style="width:100%">
+    <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-white w3-center w3-hover-red">
+        <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">HINDU PRIEST</h1>
+        <h5 class="w3-hide-large" style="white-space:nowrap">HINDU PRIEST</h5>
+        <h3 class="w3-hide-medium w3-hide-small">MANOHAR DAS</h3>
+      </div>
+    <!--<div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>New York</h3>
+      <p><b>The atmosphere in New York is lorem ipsum.</b></p>    
+    </div>-->
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/puja.JPG" style="width:100%">
+    <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-white w3-center w3-hover-red">
+        <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">HINDU PRIEST</h1>
+        <h5 class="w3-hide-large" style="white-space:nowrap">HINDU PRIEST</h5>
+        <h3 class="w3-hide-medium w3-hide-small">MANOHAR DAS</h3>
+      </div>
+    <!--<div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Chicago</h3>
+      <p><b>Thank you, Chicago - A night we won't forget.</b></p>    
+    </div>-->
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/test-2.jpg" style="width:100%">
+    <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-white w3-center w3-hover-red">
+        <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">HINDU PRIEST</h1>
+        <h5 class="w3-hide-large" style="white-space:nowrap">HINDU PRIEST</h5>
+        <h3 class="w3-hide-medium w3-hide-small">MANOHAR DAS</h3>
+      </div>
+    <!--<div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Chicago</h3>
+      <p><b>Thank you, Chicago - A night we won't forget.</b></p>   
+    </div>-->
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/test.jpg" style="width:100%">
+    <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-white w3-center w3-hover-red">
+        <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">HINDU PRIEST</h1>
+        <h5 class="w3-hide-large" style="white-space:nowrap">HINDU PRIEST</h5>
+        <h3 class="w3-hide-medium w3-hide-small">MANOHAR DAS</h3>
+      </div>
+    <!--<div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Chicago</h3>
+      <p><b>Thank you, Chicago - A night we won't forget.</b></p>    
+    </div>-->
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/238295022_541909797055401_2139046246561017540_n.jpg" style="width:100%">
+    <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-white w3-center w3-hover-red">
+        <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">HINDU PRIEST</h1>
+        <h5 class="w3-hide-large" style="white-space:nowrap">HINDU PRIEST</h5>
+        <h3 class="w3-hide-medium w3-hide-small">MANOHAR DAS</h3>
+      </div>
+    <!--<div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Chicago</h3>
+      <p><b>Thank you, Chicago - A night we won't forget.</b></p>    
+    </div>-->
+  </div>
+</div>
+<div class="mySlides w3-display-container w3-center">
+  <img src="images/127793289_389720388941010_4566923199649040389_n.jpg" style="width:100%">
+  <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-white w3-center w3-hover-red">
+      <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">HINDU PRIEST</h1>
+      <h5 class="w3-hide-large" style="white-space:nowrap">HINDU PRIEST</h5>
+      <h3 class="w3-hide-medium w3-hide-small">MANOHAR DAS</h3>
+    </div>
+  <!--<div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+    <h3>Chicago</h3>
+    <p><b>Thank you, Chicago - A night we won't forget.</b></p>    
+  </div>-->
+</div>
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">ABOUT ME</h2>
+    <p class="w3-opacity"><i>ARJITHA SEVA LIST</i></p>
+    <p class="w3-justify">
+        My name is Manohar Das with traditional and Vedic culture foundation. I have been priesting for more than 20 years in Hindu culture and performed more than hundreds of Hindu related ceremonies in Nepal and USA. I offer a wide range of traditional authentic Vedic pooja’s and all kinds of ceremonies like Homam – Individual (Sudarsana, Lakshmi, Venkateswara, Ganapathi, One Graha, Udhaka Shanthi, etc.) Naamakaranam, One Graha Puja, Sani Graha Puja (Thailaabhishekam), Navagraha Puja, Punyahavachanam for new born (Note: performed at home only), Naamakaranam and Punyahavachanam, Sahasranaama Archana, Satyanarayana Swamy Vratham -Saamoohika (on Poornima Day), ShankuSthaapana (Bhoomi Pooja), Seemantham, ShashD Poorthi (60th Birth Day), Swarna Pushpaarchana – Saamoohika (Malayappa Swamy, Sri Devi and Bhu Devi), Swarna Pushpaarchana – Individual (Malayappa Swamy, Sri Devi and Bhu Devi), Upanayanam, Vahana/Car Pooja(Archana included), Wedding, Hiranya Srardham, Pinda Srardham, Chandi Homam etc.
+    </p>
+    <p>
+        
+मेरो नाम मनोहर दास हो जसको परम्परागत र वैदिक संस्कृति फाउन्डेसन हो। मैले हिन्दू संस्कृतिमा २० वर्षभन्दा बढी समयदेखि पुजारी गर्दै आएको छु र नेपाल र अमेरिकामा सयौंभन्दा बढी हिन्दू सम्वन्धी समारोहहरू गरेको छु। म परम्परागत प्रामाणिक वैदिक पूजा र सबै प्रकारका समारोहहरूको विस्तृत श्रृंखला प्रदान गर्दछु जस्तै
+होमम – व्यक्तिगत (सुदर्शन, लक्ष्मी, वेंकटेश्वर, गणपति, एक ग्रह, उधक शान्ति, आदि) नामकरणम्, एक ग्रह पूजा, शनिग्रह पूजा (थैलाभिषेकम्), नवग्रह पूजा, नवजातका लागि पुण्यवचनम (नोट: घरमा मात्र गरिन्छ), नामकरण र पुण्यवचनम्, सहस्रनाम अर्चना, सत्यनारायण स्वामी व्रतम्-सामूहिक दिन (पोहोषिमाना)। पूजा), सीमान्थम, शशद पूर्ति (६० औं जन्म दिन), स्वर्ण पुष्परचना – समूहिका (मलयप्पा स्वामी, श्रीदेवी र भु देवी), स्वर्ण पुष्परचना – व्यक्तिगत (मलयप्पा स्वामी, श्रीदेवी र भु देवी), उपनयनम, वाहन/कार पूजा( अर्चना समावेश), विवाह, हिरण्य श्रीधाम, पिन्डा श्रीधाम, चंडी होमम आदि।
+    </p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p></p>
+        <img src="images/manohar_1.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:80%">
+      </div>
+      <div class="w3-third">
+        <p></p>
+        <img src="images/manohar_2.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:82%">
+      </div>
+      <div class="w3-third">
+        <p></p>
+        <img src="images/manohar_3.jpg" class="w3-round" alt="Random Name" style="width:83%">
+      </div>
+    </div>
+  </div>
+
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container" id="service">
+    <div class="w3-content">
+    <h1 class="w3-center"><b>Pooja services</b></h1>
+    <h2 class="w3-center">Currently offing followeing 16 Samskaras:</h2>
+    <h4 class="w3-center">हाल निम्न 16 संस्कारहरू:</h4>
+  <ol>
+  <li><p><b>Garbhadan-</b> The first coming together of  the husband & wife for bringing about conception.</p><p>गर्भदान - गर्भाधान ल्याउन पति-पत्नीको पहिलो पटक सँगै आउने।</p></li>
+  <li><p><b>Pumsvan-</b> Ceremony performed when the first signs of conception are seen, and is to be performed when someone desires a male child.</p><p>Pumsvan - गर्भाधानको पहिलो लक्षण देखिएपछि गरिने समारोह, र कसैले पुरुष सन्तानको इच्छा गरेमा गरिन्छ।</p></li>
+  <li><p><b>Seemantonayan-</b> A ceremony fo parting of the hairs of the expectant mother to keep her spirits high & positive. Special music is arranged for her (Baby Shower).</p><p>सीमान्तोनयन - गर्भवती आमाको आत्मालाई उच्च र सकारात्मक राख्नको लागि कपाल छुटाउने समारोह। उनको लागि विशेष संगीतको व्यवस्था गरिएको छ (बेबी शावर)।</p></li>
+  <li><p><b>Jatakarma-</b> After the birth of the child, the child is given a secret name, he is  given taste of honey &ghee, mother starts the first breast-feeding after chanting of a mantra.</p><p>जातकर्म- बच्चाको जन्म भएपछि बच्चाको गोप्य नाम राखिन्छ, उसलाई मह र घिउको स्वाद दिइन्छ, मन्त्र जपपछि आमाले पहिलो स्तनपान सुरु गर्नुहुन्छ।</p></li>
+  <li><p><b>Nama-Karan-</b> In this ceremony the child is given a formal name performed on the 11th day.</p><p>नाम-करण- यस समारोहमा 11 औं दिनमा बच्चालाई औपचारिक नाम दिइन्छ।</p></li>
+  <li><p><b>Nishkramana-</b> In this the formal darshan of sun & moon is done for the child.</p><p><p>निष्क्रमण- यसमा बच्चाको लागि सूर्य र चन्द्रमाको औपचारिक दर्शन गरिन्छ।</p></p></li>
+  <li><p><b>Annaprashana-</b> This ceremony is performed, when the child is given solid food (anna) for the first time.</p><p>अन्नप्राशन - यो संस्कार गरिन्छ, जब बच्चालाई पहिलो पटक ठोस खाना (आना) दिइन्छ।</p></li>
+  <li><p><b>Chudakarana-</b> Cuda means the "lock or tuft of hair" kept after the remaining part is saved off.</p><p>चुडाकरण- कुडा भनेको बाँकी भाग बन्द गरिसकेपछि राखिएको "कपालको लक वा टुफ्ट" हो।</p></li>
+  <li><p><b>Karna-Vedha-</b> Done in 7th or 8th month. Piercing of the ears.</p><p>कर्ण-वेध- सातौं वा आठौं महिनामा सम्पन्न। कान छेड्ने।</p></li>
+  <li><p><b>Upanayan & Vedarambha</b>- The thread ceremony. The child is thereafter authorized to perform all rituals. Studies of Vedas begins with the Guru.</p><p>उपनयन र वेदरम्भ - धागा समारोह। त्यसपछि बच्चालाई सबै अनुष्ठानहरू गर्न अधिकार दिइन्छ। वेदको अध्ययन गुरुबाट सुरु हुन्छ।</p></li>
+  <li><p><b>Keshanta-</b> Hairs are cut, guru dakshina is given.</p><p>केशान्त- कपाल काटिन्छ, गुरु दक्षिणा दिइन्छ।</p></li>
+  <li><p><b>Samavartan-</b> Returning to the house.</p><p>Samavartan - घर फर्किनु।</p></li>
+  <li><p><b>Vivaha-</b> Marriage ceremony</p><p>विवाह - विवाह समारोह</p></li>
+  <li><p><b>Vanprastha-</b>As old age approached, the person retires for a life of tapas & studies.</p><p>वानप्रस्थ- बुढ्यौली नजिकिँदै जाँदा तपस र अध्ययनको लागि व्यक्तिले सन्यास लिन्छ।</p></li>
+  <li><p><b>Sanyas-</b> Before leaving the body a Hindu sheds all sense of responsibility & relationships to awake & revel in the timeless truth.</p><p>सन्यास- शरीर छोड्नु अघि हिन्दूले सबै जिम्मेवारी र सम्बन्धहरूको भावना जगाउन र कालातीत सत्यमा रमाउन छोड्छ।</p></li>
+  <li><p><b>Antyeshthi-</b> The last rites done after the death.</p><P>अन्तयष्टि- मृत्यु पछि गरिने अन्तिम संस्कार।</P></li>
+  <li><p><b>Antyeshthi-</b> Engagement Ceremony</p><P>सगाई समारोह</P></li>
+  </ol>
+  <p>
+  Hindu Wedding Ceremony, including Punjabi, Sindhi, Guajarati, Rajasthani, Bangali, Nepali and more upon your request  with translation in Hindi and English from Sanskrit. हिन्दू विवाह समारोह, पञ्जाबी, सिन्धी, गुजराती, राजस्थानी, बंगाली, नेपाली र थप संस्कृतबाट हिन्दी र अंग्रेजीमा अनुवादको साथ तपाईंको अनुरोधमा।</p>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>सम्पर्क गर्नुहोस्</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-user" style="width:30px"></i>Manohar Das<br>
+        <i class="fa fa-map-marker" style="width:30px"></i> 1760 N FM 2148 Texarkana Texas 75501<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: 2406601297<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: manohar@gmail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Background photo 
+<div class="w3-display-container">
+    <img src="images/AD_visutravel.JPG" class="w3-image" style="width:100%">
+    <div class="w3-display-right w3-text-white" style="padding:48px">
+        <span class="w3-jumbo w3-hide-small">Start something that matters</span><br>
+        <span class="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br>
+        <span class="w3-large">Stop wasting valuable time with projects that just isn't you.</span>
+        <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more and start today</a></p>
+      </div> 
+  </div>-->
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-hide-medium w3-hide-small w3-xxxlarge ">
+    <div class="w3-display-right w3-text-white" style="padding:48px">
+        <span class="w3-jumbo w3-hide-small">Need a website</span>
+        <span class="w3-xxlarge w3-hide-large ">Need a website</span><br>
+        <span class="w3-large">Stop wasting valuable time with unreliable web design, contact professional today.</span><br>
+        <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Meet me at Linkedin</a></p>
+        
+      </div>
+      <div class="w3-display-bottomright w3-text-grey w3-large" style="padding:24px 48px">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+      </div> 
+  </div>
+
+<!-- Hide for large devices -->
+  
+<div class="w3-row-padding w3-hide-large ">
+    <hr>
+    <div class="w3-col l8 12">
+        <!-- Image of location/map -->
+        <img src="images/AD_visutravel-1.JPG" style="width:100%;">
+      </div>
+    <div class="w3-col l8 12 w3-center">
+        <h2>Need a website</h2>
+        <p class="w3-large">Stop wasting valuable time with unreliable web design, contact professional today.</p>
+        <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Meet me at Linkedin</button>
+      <p>Please connect with me:  
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+      </p>
+    </div>
+
+  </div>
+
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-red w3-xlarge">
+  <!--<i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>-->
+  <p class="w3-medium">Powered by <a href="https://visutravel.com/" target="_blank">visutravel</a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+</script>
+
+</body>
+</html>
